@@ -1,0 +1,32 @@
+{
+  "name": "vue-trello",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "update": "npx npm-check-updates -u"
+  },
+  "peerDependencies": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "pinia": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "prettier-plugin-organize-attributes": "latest",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.1",
+    "typescript": "latest",
+    "unplugin-auto-import": "latest",
+    "vite": "latest",
+    "vite-plugin-checker": "latest",
+    "vite-plugin-vue-type-imports": "latest",
+    "vue-tsc": "latest"
+  }
+}
